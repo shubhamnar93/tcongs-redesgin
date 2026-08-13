@@ -8,6 +8,12 @@
   --primary-foreground: oklch(98.5% .005 250);
   --muted: oklch(96.8% .007 247.896);
   --muted-foreground: oklch(52% .03 253);
+  --gradient-brand: linear-gradient(155deg, oklch(19% .055 254) 0%, oklch(26% .075 250) 45%, oklch(34% .1 246) 100%);
+  --gradient-grid: linear-gradient(90deg, oklch(100% 0 0 / .05) 1px, #0000 1px), linear-gradient(oklch(100% 0 0 / .05) 1px, #0000 1px);
+  --gradient-grid-size: 64px 64px;
+  --crimson: oklch(58.5% .215 14);
+  --brand-foreground: oklch(98.5% .005 250);
+  --gold: oklch(79% .135 80);
 }
 
 @theme inline {
@@ -18,6 +24,13 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-crimson: var(--crimson);
+  --color-gold: var(--gold);
+  --background-image-gradient-brand: var(--gradient-brand);
+  --background-image-gradient-accent: var(--gradient-accent);
+  --background-image-gradient-grid: var(--gradient-grid);
+  --background-size-gradient-size: var(--gradient-size);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -31,6 +44,12 @@
     --primary-foreground: oklch(98.5% .005 250);
     --muted: oklch(96.8% .007 247.896);
     --muted-foreground: oklch(52% .03 253);
+    --gradient-brand: linear-gradient(155deg, oklch(19% .055 254) 0%, oklch(26% .075 250) 45%, oklch(34% .1 246) 100%);
+    --gradient-grid: linear-gradient(90deg, oklch(100% 0 0 / .05) 1px, #0000 1px), linear-gradient(oklch(100% 0 0 / .05) 1px, #0000 1px);
+    --gradient-grid-size: 64px 64px;
+    --crimson: oklch(58.5% .215 14);
+    --brand-foreground: oklch(98.5% .005 250);
+    --gold: oklch(79% .135 80);
   }
 }
 
@@ -38,4 +57,5 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+
 }
