@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="relative mx-auto grid max-w-6xl gap-8 px-5 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-16">
         <div className="order-1 text-brand-foreground">
           <Badge />
-          <h1 className="mt-5 max-w-[15ch] text-2xl font-bold leading-[1.05] sm:text-[2.6rem] md:mt-8 md:text-[3.9rem]">
+          <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-[2.6rem] md:mt-8 md:text-[3.9rem]">
             Build digital presense that{' '}
             <span className="bg-gradient-to-r from-gold to-crimson bg-clip-text text-transparent"
             >
