@@ -1,4 +1,5 @@
 import { Badge } from "./Badge"
+import { ContactForm } from "./ContactForm"
 
 export const Hero = () => {
   return (
@@ -19,6 +20,7 @@ export const Hero = () => {
             We help brands grow with web, apps & marketing solutions across the globe.
           </p>
         </div>
+        <ContactForm />
       </div>
     </section>
   )
