@@ -1,11 +1,12 @@
+import { Familiar } from "@/components/Familiar";
 import { Hero } from "@/components/Hero";
-import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="">
       <main className="">
         <Hero />
+        <Familiar />
       </main>
     </div>
   );
