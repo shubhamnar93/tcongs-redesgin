@@ -1,10 +1,12 @@
+import { AchievmentGrid } from "./AchievmentGrid"
 import { Badge } from "./Badge"
 import { ContactForm } from "./ContactForm"
+import { HeroList } from "./HeroList"
 
 export const Hero = () => {
   return (
     <section className="relative overflow-hidden bg-gradient-brand pb-16 pt-8 md:pb-24 md:pt-20">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-grid bg-gradient-size opacity-40"></div>
+      <div className="pointer-events-none absolute inset-0 bg-grid  opacity-40"></div>
       <div aria-hidden="true" className="pointer-events-none absolute -right-40 -top-40 h-[34rem] w-[34rem] rounded-full bg-crimson/20 blur-[120px]" />
       <div className="relative mx-auto grid max-w-6xl gap-8 px-5 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-16">
         <div className="order-1 text-brand-foreground">
@@ -19,8 +21,16 @@ export const Hero = () => {
           <p className="mt-4 max-w-lg text-xs leading-relaxed text-brand-foreground/70 md:mt-7 md:text-lg">
             Websites, apps, and digital experiences built to turn visitors into customers.
           </p>
+          <div className="mt-6 hidden lg:block">
+            <HeroList />
+            <AchievmentGrid />
+          </div>
         </div>
         <ContactForm />
+        <div className="order-3 lg:hidden">
+          <HeroList />
+          <AchievmentGrid />
+        </div>
       </div>
     </section>
   )

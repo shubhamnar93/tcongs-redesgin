@@ -6,11 +6,11 @@ export const Badge = () => {
       <span>
       </span>
       <div className="flex">
-        <IconBox icon="/react.svg" index={1} />
-        <IconBox icon="/development.svg" index={2} />
-        <IconBox icon="/figma.svg" index={3} />
-        <IconBox icon="/branding.svg" index={4} />
-        <IconBox icon="/chip-ai-svgrepo-com.svg" index={5} />
+        <IconBox icon="/react.svg" />
+        <IconBox icon="/development.svg" />
+        <IconBox icon="/figma.svg" />
+        <IconBox icon="/branding.svg" />
+        <IconBox icon="/chip-ai-svgrepo-com.svg" />
       </div>
       Trusted Worldwide
     </span>
