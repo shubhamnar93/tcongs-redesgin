@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const Header = () => {
   return (
-    <header className="border-b border-border  bg-background ">
+    <header className="sticky top-0 z-30 backdrop-blur border-b border-border  bg-background ">
       <div className="grid grid-cols-[minmax(0,1fr)_auto] mx-auto px-5 py-3 sm:px-6 sm:py-4 max-w-6xl">
         <Image className="md:hidden" src={"/logo.svg"} alt="logo of tcongs" width={"81"} height={"28"} />
         <Image className="hidden md:flex" src={"/logo.svg"} alt="logo of tcongs" height={"32"} width={"94"} />
