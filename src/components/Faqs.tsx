@@ -11,7 +11,7 @@ const questionData: QuestionsProp[] = [
 
 export const Faqs = () => {
   return (
-    <section className="mx-auto max-w-3xl px-5 py-16 sm:px-6 md:py-20">
+    <section id="faq" className="mx-auto max-w-3xl px-5 py-16 sm:px-6 md:py-20">
       <div className="text-center">
         <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-crimson">FAQs</span>
         <h2 className="mt-4 text-3xl font-bold text-foreground md:text-[2.4rem] md:leading-[1.12]">Questions? We’ve got answers</h2>

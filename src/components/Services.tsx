@@ -49,7 +49,7 @@ const serviceData: ServiceCard[] = [
 
 export const Services = () => {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-4 md:py-4">
+    <section id="services" className="mx-auto max-w-6xl px-6 py-4 md:py-4">
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div className="max-w-xl">
           <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-crimson">What we do</span>

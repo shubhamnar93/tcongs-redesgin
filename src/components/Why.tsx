@@ -45,7 +45,7 @@ const steps: StepProp[] = [
 ]
 export const Why = () => {
   return (
-    <section className="my-6 border-t border-border bg-secondary/50">
+    <section id="why" className="my-6 border-t border-border bg-secondary/50">
       <div className="mx-auto grid max-w-6xl gap-14 px-6 py-24 md:py-28 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-crimson">
