@@ -7,8 +7,8 @@ import { Why } from "@/components/Why";
 
 export default function Home() {
   return (
-    <div className="">
-      <main className="">
+    <div>
+      <main>
         <Hero />
         <Familiar />
         <Services />
