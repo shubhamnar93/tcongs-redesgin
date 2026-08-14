@@ -2,7 +2,7 @@ export const ContactForm = () => {
   return (
     <div className="order-2 bg-white rounded-2xl border border-border/60 px-5 py-3 sm:rounded-[1.75rem] sm:p-6 md:p-8">
       <h2 className="mt-3 text-xl font-bold text-foreground">
-        Grow your bussiness
+        Grow your business
       </h2>
       <form className="mt-4 space-y-4">
         <LabelAndInput text="Full name" type="text" placeholder="Full name" />

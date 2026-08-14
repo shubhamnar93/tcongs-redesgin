@@ -12,7 +12,7 @@ export const Hero = () => {
         <div className="order-1 text-brand-foreground">
           <Badge />
           <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-[2.6rem] md:mt-8 md:text-[3.9rem]">
-            Build digital presense that{' '}
+            Build digital presence that{' '}
             <span className="bg-gradient-to-r from-gold to-crimson bg-clip-text text-transparent"
             >
               wins customers
