@@ -67,15 +67,12 @@ const Card = ({ image, problem, solveHeading, solvePara, solveList, isLeft = fal
       <div>
         <div className="rounded-xl border border-crimson/25 bg-crimson/5 px-4 py-3">
           <div className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-crimson">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-triangle-alert h-3.5 w-3.5 shrink-0" aria-hidden="true">
-              <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3">
-              </path>
-              <path d="M12 9v4">
-              </path>
-              <path d="M12 17h.01">
-              </path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
             </svg>
-            The problem
+            What goes wrong
           </div>
           <p className="mt-1.5 text-sm font-medium leading-relaxed text-foreground">{problem}</p>
         </div>
