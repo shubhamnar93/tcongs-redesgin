@@ -12,14 +12,14 @@ export const Hero = () => {
         <div className="order-1 text-brand-foreground">
           <Badge />
           <h1 className="mt-5 text-4xl font-bold leading-[1.05] sm:text-[2.6rem] md:mt-8 md:text-[3.9rem]">
-            Build digital presence that{' '}
+            Build digital solutions that{' '}
             <span className="bg-gradient-to-r from-gold to-crimson bg-clip-text text-transparent"
             >
-              wins customers
+              drive real growth
             </span>
           </h1>
           <p className="mt-4 max-w-lg text-xs leading-relaxed text-brand-foreground/70 md:mt-7 md:text-lg">
-            Websites, apps, and digital experiences built to turn visitors into customers.
+            From high-converting websites and mobile apps to custom software and digital solutions, we help businesses build, scale, and grow.
           </p>
           <div className="mt-6 hidden lg:block">
             <HeroList />
