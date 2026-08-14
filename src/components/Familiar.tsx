@@ -1,8 +1,8 @@
 import Image from "next/image"
 
-type cardProp = { image: string, problem: string, solveHeading: string, solvePara: string, solveList: string[], isLeft?: boolean }
+type CardProp = { image: string, problem: string, solveHeading: string, solvePara: string, solveList: string[], isLeft?: boolean }
 
-const cards: cardProp[] = [
+const cards: CardProp[] = [
   {
     image: "/pain-team-vfuyvjQB.jpg",
     problem: "“Our last agency went silent mid-project and the timeline kept slipping.”",
@@ -44,7 +44,7 @@ export const Familiar = () => {
   return (
     <section className="mx-auto max-w-6xl px-5 py-14 sm:px-6 md:py-28">
       <div className="max-w-2xl">
-        <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-crimson">sound Familiar</span>
+        <span className="text-[11px] font-semibold uppercase tracking-[0.22em] text-crimson">Sounds familiar</span>
         <h2 className="mt-3 text-[1.6rem] font-bold leading-[1.15] text-foreground md:mt-4 md:text-[2.6rem] md:leading-[1.1]">The problems that stall growth — and how we fix them</h2>
         <p className="mt-3 text-[11px] leading-relaxed text-muted-foreground md:mt-5 md:text-base">Most businesses don't need more tools. They need the right build, shipped on time, by a team that stays accountable after launch.</p>
       </div>
@@ -58,7 +58,7 @@ export const Familiar = () => {
   )
 }
 
-const Card = ({ image, problem, solveHeading, solvePara, solveList, isLeft = false }: cardProp) => {
+const Card = ({ image, problem, solveHeading, solvePara, solveList, isLeft = false }: CardProp) => {
   return (
     <article className="grid items-center gap-5 overflow-hidden rounded-2xl border border-border bg-card p-4 sm:p-5 md:grid-cols-2 md:gap-14 md:rounded-none md:border-0 md:bg-transparent md:p-0">
       <div className={`${isLeft && "md:hidden"}`}>

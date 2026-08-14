@@ -17,7 +17,7 @@ export const Faqs = () => {
         <h2 className="mt-4 text-3xl font-bold text-foreground md:text-[2.4rem] md:leading-[1.12]">Questions? We’ve got answers</h2>
       </div>
       <div className="mt-10 space-y-3">
-        {questionData.map((qd, index) => <Questions key={`questinons-${index}`} question={qd.question} answer={qd.answer} />)}
+        {questionData.map((qd, index) => <Questions key={`questions-${index}`} question={qd.question} answer={qd.answer} />)}
       </div>
     </section>
   )

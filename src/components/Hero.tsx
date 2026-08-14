@@ -1,4 +1,4 @@
-import { AchievmentGrid } from "./AchievmentGrid"
+import { AchievementGrid } from "./AchievementGrid"
 import { Badge } from "./Badge"
 import { ContactForm } from "./ContactForm"
 import { HeroList } from "./HeroList"
@@ -23,13 +23,13 @@ export const Hero = () => {
           </p>
           <div className="mt-6 hidden lg:block">
             <HeroList />
-            <AchievmentGrid />
+            <AchievementGrid />
           </div>
         </div>
         <ContactForm />
         <div className="order-3 lg:hidden">
           <HeroList />
-          <AchievmentGrid />
+          <AchievementGrid />
         </div>
       </div>
     </section>

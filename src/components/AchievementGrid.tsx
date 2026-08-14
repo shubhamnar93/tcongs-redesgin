@@ -1,4 +1,4 @@
-export const AchievmentGrid = () => {
+export const AchievementGrid = () => {
   return (
     <div className="mt-10 grid max-w-xl grid-cols-2 md:grid-cols-4 gap-px overflow-hidden rounded-2xl border border-brand-foreground/10 bg-brand-foreground/10">
       <IndividualAchievement text="190+" subText="Happy Client" />

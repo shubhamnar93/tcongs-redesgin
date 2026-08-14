@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "tcongs infotech",
+  title: "Tcongs Infotech",
   description: "scalable Digital Solutions and smart marketing for Modern Businesses",
 };
 
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         rel="icon"
         href="/favicon.png"
         type="image/png"
-        sizes="<generated>"
+        sizes="32x32"
       />
       <body className="min-h-full flex flex-col">
         <Header />

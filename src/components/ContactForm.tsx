@@ -8,7 +8,7 @@ export const ContactForm = () => {
         <LabelAndInput text="Full name" type="text" placeholder="Full name" />
         <div className="grid gap-4 sm:grid-cols-2">
           <LabelAndInput text="Email" type="email" placeholder="jane@gmail.com" />
-          <LabelAndInput text="Phone no." type="tell" placeholder="+91 98765 43210" />
+          <LabelAndInput text="Phone no." type="tel" placeholder="+91 98765 43210" />
         </div>
         <Label text="Tell us about your project" />
         <textarea className="flex min-h-[60px] w-full border border-input px-3 py-2 text-base shadow-sm placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm rounded-xl bg-secondary/60"
